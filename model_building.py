@@ -34,14 +34,11 @@ The dataset, titled *Ecommerce Customers*, contains information about the compan
 
 <h2 style="color:purple">Import Necessary libraries</h2>
 """
-import subprocess
-import sys
 
-subprocess.check_call([sys.executable, "-m", "pip", "install", "seaborn"])
 import warnings
 warnings.filterwarnings("ignore")
 
-import seaborn as sns
+
 import numpy as np
 import pandas as pd
 
