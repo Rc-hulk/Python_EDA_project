@@ -38,7 +38,8 @@ The dataset, titled *Ecommerce Customers*, contains information about the compan
 import warnings
 warnings.filterwarnings("ignore")
 
-pip install seaborn
+import subprocess
+import sys
 import numpy as np
 import pandas as pd
 import seaborn as sns
