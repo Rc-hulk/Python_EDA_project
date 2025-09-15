@@ -38,11 +38,10 @@ The dataset, titled *Ecommerce Customers*, contains information about the compan
 import warnings
 warnings.filterwarnings("ignore")
 
-import subprocess
-import sys
+import seaborn as sns
 import numpy as np
 import pandas as pd
-import seaborn as sns
+
 import matplotlib.pyplot as plt
 import plotly.express as px
 
