@@ -34,7 +34,7 @@ The dataset, titled *Ecommerce Customers*, contains information about the compan
 
 <h2 style="color:purple">Import Necessary libraries</h2>
 """
-
+!pip install seaborn
 import warnings
 warnings.filterwarnings("ignore")
 
