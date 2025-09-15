@@ -34,10 +34,11 @@ The dataset, titled *Ecommerce Customers*, contains information about the compan
 
 <h2 style="color:purple">Import Necessary libraries</h2>
 """
-pip install seaborn
+
 import warnings
 warnings.filterwarnings("ignore")
 
+pip install seaborn
 import numpy as np
 import pandas as pd
 import seaborn as sns
